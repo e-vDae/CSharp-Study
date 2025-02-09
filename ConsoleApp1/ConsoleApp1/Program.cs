@@ -44,5 +44,4 @@ class SalaryIncrease
 
         return HowMuchHabibi;
     }
-
 }

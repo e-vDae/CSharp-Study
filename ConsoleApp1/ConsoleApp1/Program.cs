@@ -26,14 +26,14 @@ class SalaryIncrease
     }
     static decimal SalaryIncreasonator1000()
     {
-        Console.Write("Input your asking salary habibi : ");
+        Console.Write("Inbut your asking salary habibi : ");
         decimal HowMuchHabibi = Convert.ToDecimal(Console.ReadLine());
         return HowMuchHabibi;
     }
 
     static decimal SalaryIncreasonator3000()
 	{
-        Console.Write("Input your asking salary habibi ");
+        Console.Write("Inbut your asking salary habibi ");
         decimal HowMuchHabibi = Convert.ToDecimal(Console.ReadLine());
 
         while (HowMuchHabibi < 9_999_999_999)
@@ -44,5 +44,4 @@ class SalaryIncrease
 
         return HowMuchHabibi;
     }
-//TEST UPDATE COMMIT TO GITHUB
 }
